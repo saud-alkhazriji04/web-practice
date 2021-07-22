@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: hsl(233, 47%, 7%);
+}
+
+/*.content {
+    background: hsl(233, 47%, 7%);
+    width: 100%;
+    height: 100%;
+}*/
+
+.container {
+    background: hsl(244, 38%, 16%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400, 700;
+}
